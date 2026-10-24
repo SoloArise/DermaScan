@@ -1,0 +1,69 @@
+{
+  "scan_d557a1d3683b": {
+    "scan_id": "scan_d557a1d3683b",
+    "created_at": "2026-10-22T06:21:15.981027+00:00",
+    "prediction": {
+      "class_name": "Basal Cell Carcinoma",
+      "class_code": "bcc",
+      "confidence": 0.779,
+      "category": "Malignant Non-Melanoma",
+      "severity_hint": "high",
+      "description": "Basal cell carcinoma is the most common form of skin cancer. While slow-growing and rarely metastasizing, it is locally destructive if untreated.",
+      "screening_guidance": "Timely specialist evaluation by a dermatologist or oncologic surgeon is recommended for clinical assessment, biopsy confirmation, and definitive surgical or topical management.",
+      "probabilities": [
+        {
+          "code": "bcc",
+          "name": "Basal Cell Carcinoma",
+          "probability": 0.779,
+          "severity": "high"
+        },
+        {
+          "code": "bkl",
+          "name": "Benign Keratosis-like Lesions",
+          "probability": 0.0541,
+          "severity": "low"
+        },
+        {
+          "code": "akiec",
+          "name": "Actinic Keratosis / Intraepithelial Carcinoma",
+          "probability": 0.0505,
+          "severity": "moderate"
+        },
+        {
+          "code": "mel",
+          "name": "Melanoma",
+          "probability": 0.0397,
+          "severity": "urgent_evaluation"
+        },
+        {
+          "code": "df",
+          "name": "Dermatofibroma",
+          "probability": 0.0365,
+          "severity": "low"
+        },
+        {
+          "code": "vasc",
+          "name": "Vascular Lesions",
+          "probability": 0.0263,
+          "severity": "low"
+        },
+        {
+          "code": "nv",
+          "name": "Melanocytic Nevi",
+          "probability": 0.0138,
+          "severity": "low"
+        }
+      ]
+    },
+    "model": {
+      "name": "DermaScan-Dev-Simulation",
+      "version": "0.9.0-dev",
+      "architecture": "Simulated-Heuristic (Dev Preview Mode)",
+      "is_simulated": true,
+      "notice": "DEVELOPMENT PREVIEW MODE: Model weights artifact (dermascan_model.keras) was not detected in backend/models. This prediction is simulated for UI and API integration verification and must NOT be used for clinical evaluation."
+    },
+    "filename": "test_lesion.jpg",
+    "file_size_bytes": 2743,
+    "image_data_url": "data:image/jpeg;base64,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"
+  }
+}
